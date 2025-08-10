@@ -17,10 +17,10 @@ public class SumOfFirstNnumber {
         System.out.println(sumOf);
     }
 
-    private static int getSum(int n) {
-        if (n==0)
-            return 0;
+        private static int getSum(int n) {
+            if (n==0)
+               return 0;
 
-        return n + getSum(n-1);
-    }
+            return n + getSum(n-1);
+        }
 }
